@@ -1,0 +1,12 @@
+const myAge = 30; //my age
+let earlyYears = 2; //early years
+earlyYears *= 10.5;
+let laterYears = myAge - 2; //variable
+laterYears *= 4; // later years
+console.log(earlyYears);
+console.log(laterYears);
+let myAgeInDogYears = earlyYears + laterYears;
+//dog's age relative to my human age
+let myName = 'Paul'.toLowerCase(); //turn string to all lowercase
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
+//returns sentence with value substitution
