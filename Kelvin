@@ -1,0 +1,9 @@
+const kelvin = '0'; //K value input
+let celsius = kelvin - 273; // celsius is 273 degree less than Kelvin
+let fahrenheit = celsius * (9/5) + 32; // calculating fahrenheit from celsius
+fahrenheit = Math.floor(fahrenheit); // round number
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+
+let newton = celsius * (33/100); // calculating newton from celsius
+newton = Math.floor(newton); //round number
+console.log(`Newton is ${newton}.`);
